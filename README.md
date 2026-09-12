@@ -1,21 +1,6 @@
 <p align="center">
-  <img src="assets/cyclistic_logo_refined.png" alt="Cyclistic Logo" width="180">
+  <img src="Cyclistic Bikeshare Analysis header.png" alt="Cyclistic Hero Banner" style="width:100%; height:auto;">
 </p>
-
-<h1 align="center" style="color:#00838F;">🚲 Cyclistic Bikeshare Analysis</h1>
-
-<p align="center" style="color:#003B49;">
-  <strong>September 2025 – August 2026</strong><br>
-  <em>Google Data Analytics Capstone Project</em>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/BigQuery-00838F?style=for-the-badge&logo=googlecloud&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-003B49?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Tableau-F4D03F?style=for-the-badge&logo=tableau&logoColor=white">
-</p>
-  
-
 
 ## <span style="color:#00838F;">📊 Executive Summary</span>
 This project analyzes 12 months of historical trip data for **Cyclistic**, a fictional bike-share company in Chicago. The primary business objective is to understand how annual members and casual riders use bikes differently. The insights derived from this analysis directly inform a new marketing strategy designed to convert casual riders into high-value annual members.

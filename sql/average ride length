@@ -1,0 +1,9 @@
+SELECT
+ member_casual,
+ ROUND(AVG(ride_length_minutes),2) AS avg_ride_duration_minutes,
+ MAx(ride_length_minutes) AS max_ride_duration_minutes
+FROM 
+  `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.cleaned_tripdata_0925_0826`
+GROUP BY member_casual
+ORDER BY
+  avg_ride_duration_minutes DESC

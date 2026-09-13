@@ -1,0 +1,7 @@
+SELECT  
+  COUNT(*) as missing_station_count
+FROM 
+  `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.cyclistic_bikeshare_0925_0826`
+WHERE
+  start_station_name IS NULL
+  OR end_station_name IS NULL;

@@ -1,0 +1,25 @@
+CREATE TABLE `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.cyclistic_bikeshare_0925_0826` AS
+
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.Oct_2025_tripdata`
+UNION ALL 
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.apr_2026_tripdata`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.aug_2026_tripdata`
+UNION ALL 
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.dec_2025_bikeshare`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.feb_2025_tripdata`
+UNION ALL 
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.jul_2026_tripdata`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.jun_2026_tripdata`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.mar_2026_tripdata`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.may_2026_tripdata`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.nov_2025_tripdata`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.Jan_2026_tripdata`
+UNION ALL
+  SELECT * FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.sept_2025_tripdata`;

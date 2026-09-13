@@ -1,0 +1,31 @@
+CREATE TABLE 
+  `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.cleaned_tripdata_0925_0826` AS
+WITH cleaned_data AS (
+  SELECT
+  ride_id,
+  rideable_type,
+  started_at,
+  ended_at,
+  start_station_name,
+  start_station_id,
+  end_station_name,
+  end_station_id,
+  start_lat,
+  start_lng,
+  end_lat,
+  end_lng,
+  member_casual
+FROM 
+  `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.cyclistic_bikeshare_0925_0826`
+WHERE
+  start_station_name IS NOT NULL
+  AND end_station_name IS NOT NULL
+  AND ended_at > started_at
+)
+SELECT
+  *,
+  EXTRACT(MONTH FROM started_at) AS month,
+  EXTRACT(YEAR FROM started_at) AS year,
+  FORMAT_TIMESTAMP('%A',started_at) AS day_of_week,
+  TIMESTAMP_DIFF(ended_at,started_at,MINUTE) AS ride_length_minutes
+FROM cleaned_data;

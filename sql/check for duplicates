@@ -1,0 +1,6 @@
+SELECT 
+  ride_id,
+  COUNT(*) as duplicate_count 
+  FROM `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.cyclistic_bikeshare_0925_0826` 
+  GROUP BY ride_id
+  HAVING COUNT(*) > 1;

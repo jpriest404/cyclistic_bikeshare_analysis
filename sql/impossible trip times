@@ -1,0 +1,8 @@
+SELECT 
+  ride_id,
+  started_at,
+  ended_at 
+FROM 
+  `project-30ac8094-e9f8-4e8e-908.cyclistic_bikeshare.cyclistic_bikeshare_0925_0826`
+WHERE
+  ended_at <= started_at;

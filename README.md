@@ -3,7 +3,7 @@
 </p>
 
 ## <span style="color:#00838F;">📊 Executive Summary</span>  
-This project analyzes 12 months of historical trip data for **Cyclistic**, a fictional bike-share company in Chicago. The Director of Marketing, Lily Moreno, believes the company’s future success depends on maximizing the number of annual memberships. 
+This project analyzes 12 months of historical trip data for Cyclistic, a fictional bike-share company in Chicago. The Director of Marketing, Lily Moreno, believes the company’s future success depends on maximizing the number of annual memberships. 
 
 The primary business objective is to understand how annual members and casual riders use bikes differently. The insights derived from this analysis, backed by compelling data visualizations, directly inform a new marketing strategy designed to convert casual riders into high-value annual members.
 
@@ -35,7 +35,7 @@ The primary business objective is to understand how annual members and casual ri
 
 ## 3. 🛠️ Data Pipeline & Methodology  
 **Data Extraction & Staging:**
-Staged monthly CSV files via Google Cloud Storage / Google Drive and imported them into **Google BigQuery** to efficiently process millions of rows. 
+Staged monthly CSV files via Google Cloud Storage / Google Drive and imported them into [Google BigQuery](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1sproject-30ac8094-e9f8-4e8e-908!2scyclistic_bikeshare) to efficiently process millions of rows. 
 
 **Data Transformation & Cleaning:** 
   * Combined 12 individual monthly tables using `UNION ALL` into a single master dataset. 

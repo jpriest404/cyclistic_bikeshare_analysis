@@ -51,7 +51,7 @@ Staged monthly CSV files via Google Cloud Storage / Google Drive and imported th
 ### 1. Ride Duration: Casual Riders Take Longer Trips (Lollipop Chart)
 * **Insight:** Casual riders average a significantly higher ride duration—nearly **9 minutes longer** than annual members.
 * **Interpretation:** Annual members primarily use the bikes for point-to-point commuting (fast, direct, and efficient), whereas casual riders use them for leisure, recreation, and longer outings.
-<img src="Average Ride Length.png" alt="Avg Ride Length" width="600">
+<img src="Avg Ride Length.jpg" alt="Avg Ride Length" width="600">
 
 ### 2. Weekly Trends: Commuters vs. Weekend Explorers (Bar Chart)
 * **Insight:** Member ride volume peaks mid-week (**Tuesday through Thursday**), reflecting standard work and school commuting patterns. Conversely, casual ridership spikes heavily from **Friday through Sunday**.
@@ -87,6 +87,4 @@ Based on the data-driven insights, the marketing department should execute the f
 │   ├── impossible trip times
 |   ├── missing station data
 │   └── union_all
-├── assets/
-│   └── dashboard_preview.png
 └── README.md
